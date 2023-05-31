@@ -23356,7 +23356,7 @@ var import_path2 = __toESM(require("path"));
 // package.json
 var package_default = {
   name: "@dbd/nextjs-lambda",
-  version: "1.0.12",
+  version: "1.0.13",
   description: "DBD fork of @sladg/nextjs-lambda.",
   license: "MIT",
   exports: "./dist/index.js",
@@ -23401,12 +23401,12 @@ var package_default = {
     typescript: "^4.9.5"
   },
   peerDependencies: {
-    "@aws-cdk/aws-apigatewayv2-alpha": "^2.66.1-alpha.0",
-    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.66.1-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-alpha": "^2.81.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.81.0-alpha.0",
     "@types/archiver": "^5.3.1",
     "@types/node": "^18.13.0",
-    "aws-cdk": "^2.66.1",
-    "aws-cdk-lib": "^2.66.1",
+    "aws-cdk": "^2.81.0",
+    "aws-cdk-lib": "^2.81.0",
     envalid: "^7.3.1",
     next: "^12.2 || ^13"
   },
