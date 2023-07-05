@@ -23356,7 +23356,7 @@ var import_path2 = __toESM(require("path"));
 // package.json
 var package_default = {
   name: "@dbd/nextjs-lambda",
-  version: "1.0.13",
+  version: "1.0.14",
   description: "DBD fork of @sladg/nextjs-lambda.",
   license: "MIT",
   exports: "./dist/index.js",
@@ -23379,7 +23379,7 @@ var package_default = {
     "copy:files": "cp -R ./lib/templates ./dist/templates"
   },
   dependencies: {
-    "@sladg/imaginex-lambda": "0.17.0"
+    "@dbd/imaginex-lambda": "dbdventures/imaginex-lambda"
   },
   devDependencies: {
     "@types/js-yaml": "^4.0.5",

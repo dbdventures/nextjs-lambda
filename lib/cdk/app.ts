@@ -1,4 +1,4 @@
-import { handler, name, optimizerCodePath, optimizerLayerPath, version } from '@sladg/imaginex-lambda'
+import { handler, name, optimizerCodePath, optimizerLayerPath, version } from '@dbd/imaginex-lambda'
 import { App } from 'aws-cdk-lib'
 import path from 'path'
 

@@ -23,7 +23,7 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 
 // lib/cdk/app.ts
-var import_imaginex_lambda = require("@sladg/imaginex-lambda");
+var import_imaginex_lambda = require("@dbd/imaginex-lambda");
 var import_aws_cdk_lib10 = require("aws-cdk-lib");
 var import_path2 = __toESM(require("path"));
 
