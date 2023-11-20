@@ -98,12 +98,14 @@ var RuntimeEnum = /* @__PURE__ */ ((RuntimeEnum2) => {
   RuntimeEnum2["NODEJS_14_X"] = "node14";
   RuntimeEnum2["NODEJS_16_X"] = "node16";
   RuntimeEnum2["NODEJS_18_X"] = "node18";
+  RuntimeEnum2["NODEJS_20_X"] = "node20";
   return RuntimeEnum2;
 })(RuntimeEnum || {});
 var runtimeMap = {
   ["node14" /* NODEJS_14_X */]: import_aws_lambda3.Runtime.NODEJS_14_X,
   ["node16" /* NODEJS_16_X */]: import_aws_lambda3.Runtime.NODEJS_16_X,
-  ["node18" /* NODEJS_18_X */]: import_aws_lambda3.Runtime.NODEJS_18_X
+  ["node18" /* NODEJS_18_X */]: import_aws_lambda3.Runtime.NODEJS_18_X,
+  ["node20" /* NODEJS_20_X */]: import_aws_lambda3.Runtime.NODEJS_20_X
 };
 var RawEnvConfig = (0, import_envalid.cleanEnv)(process.env, {
   STACK_NAME: (0, import_envalid.str)(),

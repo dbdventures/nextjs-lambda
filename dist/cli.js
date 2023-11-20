@@ -18684,9 +18684,9 @@ var require_crc32 = __commonJS({
   }
 });
 
-// node_modules/crc32-stream/lib/crc32-stream.js
+// node_modules/compress-commons/node_modules/crc32-stream/lib/crc32-stream.js
 var require_crc32_stream = __commonJS({
-  "node_modules/crc32-stream/lib/crc32-stream.js"(exports, module2) {
+  "node_modules/compress-commons/node_modules/crc32-stream/lib/crc32-stream.js"(exports, module2) {
     "use strict";
     var { Transform } = require_readable3();
     var crc32 = require_crc32();
@@ -18720,9 +18720,9 @@ var require_crc32_stream = __commonJS({
   }
 });
 
-// node_modules/crc32-stream/lib/deflate-crc32-stream.js
+// node_modules/compress-commons/node_modules/crc32-stream/lib/deflate-crc32-stream.js
 var require_deflate_crc32_stream = __commonJS({
-  "node_modules/crc32-stream/lib/deflate-crc32-stream.js"(exports, module2) {
+  "node_modules/compress-commons/node_modules/crc32-stream/lib/deflate-crc32-stream.js"(exports, module2) {
     "use strict";
     var { DeflateRaw } = require("zlib");
     var crc32 = require_crc32();
@@ -18767,9 +18767,9 @@ var require_deflate_crc32_stream = __commonJS({
   }
 });
 
-// node_modules/crc32-stream/lib/index.js
+// node_modules/compress-commons/node_modules/crc32-stream/lib/index.js
 var require_lib = __commonJS({
-  "node_modules/crc32-stream/lib/index.js"(exports, module2) {
+  "node_modules/compress-commons/node_modules/crc32-stream/lib/index.js"(exports, module2) {
     "use strict";
     module2.exports = {
       CRC32Stream: require_crc32_stream(),
@@ -23401,12 +23401,12 @@ var package_default = {
     typescript: "^4.9.5"
   },
   peerDependencies: {
-    "@aws-cdk/aws-apigatewayv2-alpha": "^2.81.0-alpha.0",
-    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.81.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-alpha": "^2.110.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "^2.110.0-alpha.0",
     "@types/archiver": "^5.3.1",
     "@types/node": "^18.13.0",
-    "aws-cdk": "^2.81.0",
-    "aws-cdk-lib": "^2.81.0",
+    "aws-cdk": "^2.110.0",
+    "aws-cdk-lib": "^2.110.0",
     envalid: "^7.3.1",
     next: "^12.2 || ^13"
   },
