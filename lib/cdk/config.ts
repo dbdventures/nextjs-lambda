@@ -8,12 +8,14 @@ enum RuntimeEnum {
 	NODEJS_14_X = 'node14',
 	NODEJS_16_X = 'node16',
 	NODEJS_18_X = 'node18',
+	NODEJS_20_X = 'node20',
 }
 
 const runtimeMap = {
 	[RuntimeEnum.NODEJS_14_X]: Runtime.NODEJS_14_X,
 	[RuntimeEnum.NODEJS_16_X]: Runtime.NODEJS_16_X,
 	[RuntimeEnum.NODEJS_18_X]: Runtime.NODEJS_18_X,
+	[RuntimeEnum.NODEJS_20_X]: Runtime.NODEJS_20_X,
 }
 
 const RawEnvConfig = cleanEnv(process.env, {
